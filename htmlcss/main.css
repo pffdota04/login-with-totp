@@ -1,0 +1,163 @@
+.container {
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  border-radius: 30px;
+  padding: 13px;
+}
+
+.nav-item:hover {
+  background-color: #f3db7c;
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: red;
+}
+
+/*  */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 70%;
+  font-size: 70px;
+}
+
+.hero-text span {
+  color: #f7cc15;
+}
+
+.hero-img {
+  flex: 30%;
+  width: 270px;
+}
+
+.hero-download {
+  flex: 100%;
+}
+
+/*  */
+
+.feature-row {
+  display: flex;
+}
+
+.feature-col {
+  flex: 33.33%;
+}
+
+.feature-text {
+  position: relative;
+  top: -70px;
+}
+
+.feature-name {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+/*  */
+
+.vuicoin {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.h2 {
+  flex: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.h2 h2 {
+  display: inline;
+  background: linear-gradient(to left, #f7cc15 0%, #f7cc15 100%);
+  background-position: 0px calc(100% - 0px);
+  background-size: 100% 26px;
+  background-repeat: repeat-x;
+  padding-bottom: 5px;
+  font-size: 36px;
+}
+
+.vui-ul {
+  flex: 50%;
+}
+.vui-ul li {
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.vui-img {
+  flex: 50%;
+  align-items: flex-end;
+  text-align: end;
+}
+
+.branch-title {
+  display: flex;
+}
+
+.branch-logo {
+  width: 85px;
+  border-radius: 85px;
+  margin-right: 20px;
+  padding: 10px;
+}
+.branch-name {
+  flex: 1;
+}
+
+.name-item {
+  font-size: 20px;
+}
+
+.vui-item {
+  font-size: 15px;
+}
+
+.branch-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px 50px;
+}
+.branch-item {
+  background-color: #f8f8f8;
+  padding: 30px;
+}
+
+.branch-des {
+  font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 428px;
+  }
+}
